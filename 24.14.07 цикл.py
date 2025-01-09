@@ -141,13 +141,13 @@ for i in range(b):
 
 
 
-# numbers = [4, 6, 2, 6, 7, 3, 1]
+numbers = [4, 6, 2, 6, 7, 3, 1]
 
-# new_list = []
-# for i in numbers:
-#     if i % 2 != 0:
-#         new_list.append(i)
-# print(new_list)
+new_list = []
+for i in numbers:
+    if i % 2 != 0:
+        new_list.append(i)
+print(new_list)
 
 
 
@@ -173,17 +173,19 @@ for i in range(b):
 #         break 
 
 
-a = int(input('San jaz: '))
-print(f'Start')
-for i in reversed(range(a)):
-    print(i)
-print('The end')
+# a = int(input('San jaz: '))
+# print(f'Start')
+# for i in reversed(range(a)):
+#     print(i)
+# print('The end')
 
 
-a = int(input('San jaz: '))
-print('Start')
+# a = int(input('San jaz: '))
+# print('Start')
 
-while a !=-1:
-    print(a)
-    a -=1
-print('The end')
+# while a !=-1:
+#     print(a)
+#     a -=1
+# print('The end')
+
+

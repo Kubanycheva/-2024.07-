@@ -15,7 +15,6 @@
 #     print('Palidrom emes')
 
 
-
 # age = input("Жашынды жаз: ")
 # print(age)
 # age = int(input('Жашынды жаз: '))
@@ -57,5 +56,18 @@
 # number2 = (5, 4, 2, 5, 3)
 # n = number1 + number2
 # # n1 = set(n)
-# print(sorted(n1,reverse=True))
+# print(sorted(number1,reverse=True))
 
+
+
+def find_numbers(nums, num):
+    lists = []
+    for i in nums:
+        numbers = num - i
+        if numbers in nums and nums != nums.index(i):
+            list.append(i)
+            list.append(numbers)
+            if len(list) == 2:
+                break
+print(find_numbers([5, 6, 3, 4], 10))
+[6, 4]
